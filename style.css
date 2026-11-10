@@ -1,35 +1,35 @@
-:root[data-theme="dark"] {
-    --bg-primary: #0b0f19;
-    --bg-secondary: #111827;
-    --bg-surface: #1e293b;
-    --bg-surface-hover: #334155;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --accent-primary: #6366f1;
-    --accent-hover: #4f46e5;
-    --accent-glow: rgba(99, 102, 241, 0.25);
-    --user-bubble: #4f46e5;
-    --user-text: #ffffff;
-    --bot-bubble: #1e293b;
-    --border-color: rgba(255, 255, 255, 0.08);
-    --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.35);
+:root[data-theme="light"] {
+    --bg-primary: #F8F6FF;
+    --bg-secondary: #F0EDFF;
+    --bg-surface: #FFFFFF;
+    --bg-surface-hover: #EAE5FF;
+    --text-primary: #393253;
+    --text-secondary: #8983A3;
+    --accent-primary: #A594E8;
+    --accent-hover: #8C78D6;
+    --accent-glow: rgba(165, 148, 232, 0.20);
+    --user-bubble: #B5A5F0;
+    --user-text: #FFFFFF;
+    --bot-bubble: #EAE6FA;
+    --border-color: rgba(165, 148, 232, 0.20);
+    --shadow-md: 0 8px 25px rgba(165, 148, 232, 0.20);
 }
 
 :root[data-theme="light"] {
-    --bg-primary: #f8fafc;
-    --bg-secondary: #ffffff;
-    --bg-surface: #f1f5f9;
-    --bg-surface-hover: #e2e8f0;
-    --text-primary: #0f172a;
-    --text-secondary: #64748b;
-    --accent-primary: #4f46e5;
-    --accent-hover: #4338ca;
-    --accent-glow: rgba(79, 70, 229, 0.15);
-    --user-bubble: #4f46e5;
-    --user-text: #ffffff;
-    --bot-bubble: #ffffff;
-    --border-color: rgba(15, 23, 42, 0.1);
-    --shadow-md: 0 8px 25px rgba(15, 23, 42, 0.06);
+    --bg-primary: #F8F6FF;
+    --bg-secondary: #F0EDFF;
+    --bg-surface: #FFFFFF;
+    --bg-surface-hover: #EAE5FF;
+    --text-primary: #393253;
+    --text-secondary: #8983A3;
+    --accent-primary: #A594E8;
+    --accent-hover: #8C78D6;
+    --accent-glow: rgba(165, 148, 232, 0.20);
+    --user-bubble: #B5A5F0;
+    --user-text: #FFFFFF;
+    --bot-bubble: #EAE6FA;
+    --border-color: rgba(165, 148, 232, 0.20);
+    --shadow-md: 0 8px 25px rgba(165, 148, 232, 0.12);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -60,15 +60,16 @@ body {
 .chat-header {
     display: flex; align-items: center; justify-content: space-between;
     padding: 0.9rem 1.5rem; border-bottom: 1px solid var(--border-color);
-    background: var(--bg-secondary); z-index: 10;
+    background: linear-gradient(135deg, #DCD6FF, #CDEBFF); z-index: 10;
 }
 
 .brand-info { display: flex; align-items: center; gap: 0.85rem; }
 
 .bot-avatar {
-    width: 42px; height: 42px; border-radius: 12px;
-    background: var(--bg-surface); border: 1px solid var(--border-color);
+    width: 42px; height: 42px; border-radius: 14px;
+    background: linear-gradient(135deg, #DCD6FF, #CDEBFF); border: 1px solid #DCD6FF;
     display: flex; align-items: center; justify-content: center; font-size: 1.35rem;
+    box-shadow: 0 4px 12px rgba(165, 148, 232, 0.18);
 }
 
 .bot-title { font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em; }
@@ -77,8 +78,8 @@ body {
 .header-actions { display: flex; gap: 0.5rem; }
 
 .icon-btn {
-    background: var(--bg-surface); border: 1px solid var(--border-color);
-    color: var(--text-primary); width: 38px; height: 38px; border-radius: 10px;
+    background: #F0EDFF; border: 1px solid #DCD6FF;
+    color: #8977CF; width: 38px; height: 38px; border-radius: 12px;
     cursor: pointer; font-size: 1rem; display: flex; align-items: center;
     justify-content: center; transition: all 0.2s ease;
 }
