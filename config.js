@@ -17,25 +17,25 @@ const BOT_CONFIG = {
 
     introCards: [
         {
-            icon: "📚",
+            icon: "✏️",
             title: "Buat Coption Promosi",
             description: "Buat caption jualan yang menarik.",
             prompt: "Buatkan caption promosi untuk produk saya."
         },
         {
-            icon: "⚡",
+            icon: "💡",
             title: "Ide Nama Produk",
             description: "Temukan nama produk yang unik.",
             prompt: "Berikan ide nama produk yang kreatif."
         },
         {
-            icon: "💡",
+            icon: "🔥",
             title: "Promosi Media Sosial",
             description: "Buat konten promosi untuk media sosial.",
             prompt: "Buatkan ide konten promosi Instagram untuk produk saya."
         },
         {
-            icon: "🛠️",
+            icon: "📱",
             title: "Promosi Media Sosial",
             description: "Buat konten promosi untuk media sosial.",
             prompt: "Buatkan ide konten promosi Instagram untuk produk saya."
