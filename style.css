@@ -54,7 +54,7 @@ body {
     flex-direction: column;
     background-color: var(--bg-surface);
     border-left: 1px solid var(--border-color);
-    border-right: 24px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
     box-shadow: var(--shadow-md);
     transition: all 0.3s ease;
 }
