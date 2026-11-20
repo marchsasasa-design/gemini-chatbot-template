@@ -35,15 +35,14 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, sans-serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
     height: 100dvh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
-    transition: all 0.3s ease;
+    overflow: hidden;
+    transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 .app-container {
