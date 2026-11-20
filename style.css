@@ -1,9 +1,9 @@
 :root[data-theme="light"] {
     --bg-primary: #F8F6FF;
-    --bg-secondary: #F0EDFF;
+    --bg-secondary: #EAF3FF;
     --bg-surface: #FFFFFF;
-    --bg-surface-hover: #EAE5FF;
-    --text-primary: #393253;
+    --bg-surface-hover: #F0EBFF;
+    --text-primary: #393052;
     --text-secondary: #8983A3;
     --accent-primary: #A594E8;
     --accent-hover: #8C78D6;
