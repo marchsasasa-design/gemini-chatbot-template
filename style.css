@@ -36,8 +36,8 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: var(-bg-primary);
-    color: var(-text-primary);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
     height: 100dvh;
     display: flex;
     justify-content: center;
@@ -48,14 +48,16 @@ body {
 
 .app-container {
     width: 100%;
-    max-width: 960px;
-    height: 100dvh;
+    max-width: 1000px;
+    height: 90dvh;
+    max-height: 850px;
     display: flex;
     flex-direction: column;
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-surface);
     border-left: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
+    border-right: 24px solid var(--border-color);
     box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
 }
 
 .chat-header {
