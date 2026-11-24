@@ -30,9 +30,9 @@ const BOT_CONFIG = {
         },
         {
             icon: "🔥",
-            title: "Promosi Media Sosial",
-            description: "Buat konten promosi untuk media sosial.",
-            prompt: "Buatkan ide konten promosi Instagram untuk produk saya."
+            title: "Buat Slogan",
+            description: "Buat slogan yang menarik dan mudah diingat.",
+            prompt: "Buatkan slogan promosi untuk produk saya."
         },
         {
             icon: "📱",
